@@ -41,7 +41,7 @@ Here are a few tips to get you started with the programming assignments. You'll 
 
 ### Submission Requirements
 
-1. Use the following link to create your private github repository for this assignment. The repository will be seeded with the skeleton code, test cases, and input files. [Lab 1]()
+1. Use the following link to create your private github repository for this assignment. The repository will be seeded with the skeleton code, test cases, and input files. [Lab 1](https://classroom.github.com/assignment-invitations/09740b9b05ff36222c99c62f823829f5)
 2. For full credit, make sure to follow all [Style Guidelines](https://github.com/CS514-F17/notes/blob/master/Admin/style.md). Points will be deducted for each violation.
 
 ### Grading Rubric
@@ -55,8 +55,9 @@ Here are a few tips to get you started with the programming assignments. You'll 
 | 5 | kilowattHoursUsed | Passes all test cases provided and all additional test cases. |
 | 5 | timeZone | Passes all test cases provided and all additional test cases. |
 | 5 | dayOfYear | Passes all test cases provided and all additional test cases. |
-| 10 | Design  | Code is well designed and follows all specifications. |
+| 5 | Design  | Code is well designed and follows all specifications. |
 | 5 | Style | Code follows all style guidelines. |
+| 5 | Survey  | Completed Google survey. |
 
 Partial credit may be awarded for partial functionality and/or partially correct design or style elements.
 
