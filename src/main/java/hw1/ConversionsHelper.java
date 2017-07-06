@@ -1,4 +1,4 @@
-package lab1;
+package hw1;
 
 /**
  * A class to help with several common conversions.

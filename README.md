@@ -3,7 +3,7 @@ Lab 1
 
 ### Due Friday, August 25, 2017 - 5:00PM
 
-In this lab, you will practice using the following:
+In this homework, you will practice using the following:
 
 - Eclipse
 - Github
@@ -14,7 +14,7 @@ In this lab, you will practice using the following:
 
 ### `ConversionsHelper`
 
-For this lab, you will complete seven methods in a class called `ConversionsHelper`. Each method performs a helpful conversion, like bits to bytes or the time in one time zone to the time in another time zone.
+For this homework you will complete seven methods in a class called `ConversionsHelper`. Each method performs a helpful conversion, like bits to bytes or the time in one time zone to the time in another time zone.
 
 The Javadoc for each method describes how the method must be implemented. Carefully read the documentation and implement a solution that adheres to the specifications.
 
@@ -22,11 +22,11 @@ The Javadoc for each method describes how the method must be implemented. Carefu
 
 ### Class Survey
 
-In addition to the coding portion of this lab, you must also complete the following survey: [CS 514 Survey](https://goo.gl/forms/KE7s26ELW6Iuceol1). Make sure to join the Slack team!
+In addition to the coding portion of this homework, you must also complete the following survey: [CS 514 Survey](https://goo.gl/forms/KE7s26ELW6Iuceol1). Make sure to join the Slack team!
 
 ### Getting Started
 
-Here are a few tips to get you started with the programming assignments. You'll need to follow all of these steps for every lab and project assignment.
+Here are a few tips to get you started with the programming assignments. You'll need to follow all of these steps for every programming assignment.
 
 1. Make sure you have set up your [development environment](https://github.com/CS514-F17/notes/blob/master/Admin/devenvironment.md). You'll need to decide how you want to access github -- using command line tools, Eclipse, to the Github Desktop tool.
 2. Set up your repository (link below under #1 of Submission Requirements) and clone a copy to your local machine.
@@ -41,7 +41,7 @@ Here are a few tips to get you started with the programming assignments. You'll 
 
 ### Submission Requirements
 
-1. Use the following link to create your private github repository for this assignment. The repository will be seeded with the skeleton code, test cases, and input files. [Lab 1](https://classroom.github.com/assignment-invitations/09740b9b05ff36222c99c62f823829f5)
+1. Use the following link to create your private github repository for this assignment. The repository will be seeded with the skeleton code, test cases, and input files. [Homework 1](https://classroom.github.com/assignment-invitations/09740b9b05ff36222c99c62f823829f5)
 2. For full credit, make sure to follow all [Style Guidelines](https://github.com/CS514-F17/notes/blob/master/Admin/style.md). Points will be deducted for each violation.
 
 ### Grading Rubric

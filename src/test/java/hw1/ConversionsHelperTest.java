@@ -1,11 +1,11 @@
-package lab1;
+package hw1;
 
 import static org.junit.Assert.*;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import lab1.ConversionsHelper;
+import hw1.ConversionsHelper;
 
 public class ConversionsHelperTest {
 
