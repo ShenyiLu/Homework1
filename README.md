@@ -1,5 +1,5 @@
-Lab 1
-=====
+Homework 1
+==========
 
 ### Due Friday, August 25, 2017 - 5:00PM
 
