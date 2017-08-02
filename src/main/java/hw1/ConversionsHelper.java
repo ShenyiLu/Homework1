@@ -85,7 +85,7 @@ public class ConversionsHelper {
 	 * If fromTZ or toTZ is not a valid time zone the method will return -1.
 	 * 
 	 * Uses 24 hour clock and accounts for new day.
-	 * Hour 22 in PST is hour in EST 
+	 * Hour 22 in PST is hour 1 in EST 
 	 * 
 	 * Hour may be a valid integer from 0 to 23. If hour is outside of that range 
 	 * the method will return -1;
