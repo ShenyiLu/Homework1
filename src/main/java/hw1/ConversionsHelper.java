@@ -41,7 +41,7 @@ public class ConversionsHelper {
 	}
 
 	/**
-	 * Calculates total calories burned running given weight in pounds in and duration 
+	 * Calculates total calories burned running given weight in pounds and duration 
 	 * of exercise in minutes. 
 	 * 
 	 * Use the following formulas:
