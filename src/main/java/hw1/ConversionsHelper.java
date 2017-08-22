@@ -15,6 +15,9 @@ public class ConversionsHelper {
 	 */
 	public double celsiusToFahrenheit(int tempInCel) {
 		//TODO: Replace with your code.
+		double tempInFar = (double) tempInCel * 9 / 5 + 32;
+		System.out.println("celsiusToFahrenheit " + tempInFar);
+		//Done
 		return 0;
 	}
 
@@ -26,17 +29,23 @@ public class ConversionsHelper {
 	 */
 	public double teaspoonsToTablespoons(int tsp) {
 		//TODO: Replace with your code.
+		double tablesp = (double) tsp / 3;
+		System.out.println("teaspoonsToTablespoons " + tablesp);
+		//Done
 		return 0;
 	}
 
 	/**
 	 * Converts bits bytes.
-	 * 1 byte  = 8 Bit
+	 * 1 byte = 8 Bit
 	 * @param bits
 	 * @return
 	 */
 	public double bitsToBytes(int bits) {
 		//TODO: Replace with your code.
+		double bytes = (double) bits / 8;
+		System.out.println("bitsToBytes " + bytes);
+		//Done
 		return 0;
 	}
 
@@ -55,6 +64,10 @@ public class ConversionsHelper {
 	 */
 	public double caloriesBurnedRunning(int weightInPounds, int durationInMinutes) {		
 		//TODO: Replace with your code.
+		double weightInKg = (double) weightInPounds / 2.2;
+		double totalCal = 0.0175 * 10 * weightInKg * (double) durationInMinutes;
+		System.out.println("caloriesBurnedRunning " + totalCal);
+		//Done
 		return 0;
 	}
 
@@ -71,6 +84,9 @@ public class ConversionsHelper {
 	 */
 	public double kilowattHoursUsed(int powerDrawInWatts, int durationInMinutes) {
 		//TODO: Replace with your code.
+		double kWh = ((double) powerDrawInWatts * ((double) durationInMinutes / 60)) / 1000;
+		System.out.println("kilowattHoursUsed " + kWh);
+		//Done
 		return 0;
 	}
 
@@ -98,6 +114,51 @@ public class ConversionsHelper {
 	 */
 	public int timeZone(int hour, String fromTZ, String toTZ) {
 		//TODO: Replace with your code.
+		int pst; // convert all fromTZ to pst
+		int newHour; // then convert pst to toTZ;
+		if (hour < 0 || hour > 23) {
+			return -1;
+		} else {
+			switch (fromTZ) {
+			case "PST":
+				pst = hour;
+				break;
+			case "MST":
+				pst = hour - 1;
+				break;
+			case "CST":
+				pst = hour - 2;
+				break;
+			case "EST":
+				pst = hour - 3;
+				break;
+			default:
+				return -1;
+			}
+			switch (toTZ) {
+			case "PST":
+				newHour = pst;
+				break;
+			case "MST":
+				newHour = pst + 1;
+				break;
+			case "CST":
+				newHour = pst + 2;
+				break;
+			case "EST":
+				newHour = pst + 3;
+				break;
+			default:
+				return -1;
+			}
+			if (newHour < 0) {
+				newHour += 24;
+			} else if (newHour > 23) {
+				newHour -= 24;
+			} // Ensure hour is a valid integer from 0 to 23
+			System.out.println("timeZone " + newHour);
+		}
+		//Done
 		return 0;
 	}
 
@@ -120,6 +181,96 @@ public class ConversionsHelper {
 	 */
 	public int dayOfYear(int day, String month) {
 		//TODO: Replace with your code.
+		int dayOfYear;
+		switch (month) {
+		case "January":
+			if (0 < day && day < 32) {
+				dayOfYear = 0 + day;
+				break;
+			} else {
+				return -1;
+			}			
+		case "February":
+			if (0 < day && day < 29) {
+				dayOfYear = 31 + day;
+				break;
+			} else {
+				return -1;
+			}	
+		case "March":
+			if (0 < day && day < 32) {
+				dayOfYear = 59 + day;
+				break;
+			} else {
+				return -1;
+			}	
+		case "April":
+			if (0 < day && day < 31) {
+				dayOfYear = 90 + day;
+				break;
+			} else {
+				return -1;
+			}	
+		case "May":
+			if (0 < day && day < 32) {
+				dayOfYear = 120 + day;
+				break;
+			} else {
+				return -1;
+			}	
+		case "June":
+			if (0 < day && day < 31) {
+				dayOfYear = 151 + day;
+				break;
+			} else {
+				return -1;
+			}	
+		case "July":
+			if (0 < day && day < 32) {
+				dayOfYear = 181 + day;
+				break;
+			} else {
+				return -1;
+			}	
+		case "August":
+			if (0 < day && day < 32) {
+				dayOfYear = 212 + day;
+				break;
+			} else {
+				return -1;
+			}	
+		case "September":
+			if (0 < day && day < 31) {
+				dayOfYear = 243 + day;
+				break;
+			} else {
+				return -1;
+			}	
+		case "October":
+			if (0 < day && day < 32) {
+				dayOfYear = 273 + day;
+				break;
+			} else {
+				return -1;
+			}	
+		case "November":
+			if (0 < day && day < 31) {
+				dayOfYear = 304 + day;
+				break;
+			} else {
+				return -1;
+			}	
+		case "December":	
+			if (0 < day && day < 32) {
+				dayOfYear = 334 + day;
+				break;
+			} else {
+				return -1;
+			}	
+		default:
+			return -1;
+		}
+		System.out.println("dayOfYear " + dayOfYear);
 		return 0;
 	}
 
